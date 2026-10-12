@@ -19,6 +19,7 @@ python3 -m venv .venv
 **Windows PowerShell**
 
 ```powershell
+!!One of the Python versions between 11 and 14 must be installed.
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e "packages/markitdown[all]"
 .\.venv\Scripts\python.exe web_app.py
